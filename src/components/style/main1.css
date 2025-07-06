@@ -1,0 +1,104 @@
+/* main1 コンテナのスタイル */
+.main1 {
+  background-image: url('../image/image8.jpg'); /* 背景画像を指定 */
+  background-size: 100vw 60vw; /* 画像がコンテナに収まるように調整 */
+  background-position: center center; /* 画像を中央に配置 */
+  background-repeat: no-repeat; /* 画像が繰り返されないように設定 */
+  text-align: center;
+  color: white; /* 文字色を白に */
+  background-color: rgba(0, 0, 0, 0.5); /* 背景に半透明の黒を重ねて文字が見やすく */
+  border-radius: 2px; /* 角を丸くする */
+
+  display: flex;
+  flex-direction: column; /* 縦に並べる */
+  align-items: flex-start; /* 子要素を上詰め */
+  align-items: center; /* 横方向に中央揃え */
+  width: 100vw; /* ビューポート幅の90% */
+  height: 60vw; /* ビューポート高さの50% */
+  margin-top: 10vh; /* ヘッダーの高さ分の余白 */
+
+}
+
+/* h1のスタイル */
+.main1 h1 {
+  font-size: 8vw; /* フォントサイズ */
+  font-weight: bold;
+  margin: 10px;
+  padding: 0px 20px;
+  font-family:  serif;
+  text-align: center; /* 左寄せ */
+}
+
+.main1 h2 {
+  font-size: 4vw; /* フォントサイズ */
+  font-weight: bold;
+  margin: 7vw 0px 0px 0px;
+  padding: 0px 20px;
+  font-family:  serif;
+  text-align: center; /* 左寄せ */
+}
+
+/* pのスタイル */
+.main1 p {
+  font-size: 3vw; /* フォントサイズ */
+  margin: 15vw 10vw 0 10vw;
+  padding: 10px 20px; /* 上下の余白を少しだけ追加 */
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明の黒背景 */
+  color: white; /* 文字色を白にして視認性を高める */
+  border-radius: 5px; /* 角を丸くしてデザイン性を持たせる */
+  width: 30vw;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .main1 {
+    background-image: url('../image/image8.jpg'); /* 背景画像を指定 */
+    background-size: 100vw 150vw; /* 画像がコンテナに収まるように調整 */
+    background-position: center center; /* 画像を中央に配置 */
+    background-repeat: no-repeat; /* 画像が繰り返されないように設定 */
+    text-align: center;
+    color: white; /* 文字色を白に */
+    background-color: rgba(0, 0, 0, 0.5); /* 背景に半透明の黒を重ねて文字が見やすく */
+    border-radius: 2px; /* 角を丸くする */
+    
+    display: flex;
+    flex-direction: column; /* 縦に並べる */
+    align-items: flex-start; /* 子要素を上詰め */
+    align-items: center; /* 横方向に中央揃え */
+    width: 100vw; /* ビューポート幅の90% */
+    height: 150vw; /* ビューポート高さの50% */
+
+    margin-top: 5vh; 
+  }
+
+  .main1 h1 {
+    font-size: 15vw; /* フォントサイズ */
+    font-weight: bold;
+    margin: 2vh 0vh 10vh 0vh;
+    padding: 0px 0px;
+    font-family:  serif;
+    text-align: center; /* 左寄せ */
+  }
+  
+  .main1 h2 {
+    font-size: 5vw; /* フォントサイズ */
+    font-weight: bold;
+    margin: 30vh 0px 0px 0px;
+    padding: 0px 20px;
+    font-family:  serif;
+    text-align: center; /* 左寄せ */
+  }
+  
+  /* pのスタイル */
+  .main1 p {
+    font-size: 4vw; /* フォントサイズ */
+    margin: 8vw 10vw 0 10vw;
+    padding: 10px 20px; /* 上下の余白を少しだけ追加 */
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明の黒背景 */
+    color: white; /* 文字色を白にして視認性を高める */
+    border-radius: 5px; /* 角を丸くしてデザイン性を持たせる */
+    width: 35vw;
+    
+  }
+}
+

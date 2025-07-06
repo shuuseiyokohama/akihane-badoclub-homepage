@@ -1,0 +1,30 @@
+/* フッターの基本スタイル */
+footer {
+  background-color: #333; /* 背景色 */
+  color: white; /* 文字色 */
+  padding: 2vw; /* 内側の余白 */
+  text-align: center; /* テキストを中央揃え */
+  font-family: Arial, sans-serif; /* フォント設定 */
+
+  font-size: 1vw; /* リンクの文字サイズ */
+}
+
+footer ul {
+  list-style-type: none; /* リストのドットを削除 */
+  padding: 0; /* パディングをリセット */
+  margin: 10px 0; /* 上下のマージンを少し設定 */
+}
+
+footer ul li {
+  display: inline-block; /* リスト項目を横並びに */
+  margin: 0 15px; /* 項目間にスペース */
+}
+
+footer a {
+  color: white; /* リンクの文字色 */
+  text-decoration: none; /* リンクの下線を削除 */
+}
+
+footer a:hover {
+  text-decoration: underline; /* ホバー時に下線を表示 */
+}
