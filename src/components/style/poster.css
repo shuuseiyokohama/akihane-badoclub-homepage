@@ -1,0 +1,15 @@
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.poster{
+    margin-top: 10vh; /* ヘッダーの高さ分の余白 */
+}
+
+@media screen and (max-width: 450px) {
+    .poster{
+	margin-top: 5vh;
+    }
+}

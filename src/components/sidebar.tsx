@@ -29,7 +29,7 @@ export const Header = () =>{
           </li>
           {/*<li><a href="/schedule">予定</a></li>*/}
           <li>
-            <a href="#main3" onClick={toggleMenu}  >
+            <a href="#inquiry" onClick={toggleMenu}  >
               お問い合わせ
             </a>
           </li>

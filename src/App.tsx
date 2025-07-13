@@ -2,17 +2,17 @@ import React from 'react';
 import './App.css';
 
 import { Header } from "./components/sidebar";
-import { Main1 } from "./components/mainHome";
+import { Poster } from "./components/poster";
 import { Main2 } from "./components/Main2";
-import { Main3 } from "./components/Main3"
-import {Footer } from "./components/futter";
+import { Footer } from "./components/futter";
+import { Inquiry } from "./components/inquiry";
 function App() {
   return (
     <div className="App">
       <Header />
-      <Main1 />
+      <Poster />
       <Main2 />
-      <Main3 />
+      <Inquiry />
       <Footer />
     </div>
   );
