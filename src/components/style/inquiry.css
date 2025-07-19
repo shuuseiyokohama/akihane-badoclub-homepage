@@ -49,6 +49,7 @@
 }
 
 .form-group input,
+.form-group select,
 .form-group textarea {
   flex: 1;
   padding: 0.6rem;
@@ -57,11 +58,16 @@
   font-size: 1rem;
   width: 70vw;
 }
+select{
+    resize: vertical;
+    min-height: 40px;
+}
 
 textarea {
   resize: vertical;
   min-height: 100px;
 }
+
 
 button {
   padding: 0.8rem 1.5rem;
